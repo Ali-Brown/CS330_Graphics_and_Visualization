@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{0b23d640-254b-4676-ae46-6c13bd7645b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{8403bd27-fc2e-4805-a5b3-0f397e34cca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glad">
+      <UniqueIdentifier>{a95dc9b9-966f-4360-99f6-5ea0c8132c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{60e5fff3-f42b-41fa-aeb6-39f251489b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{b956bf4b-53d6-4770-87d3-bf5f767a8604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{fed3c382-4ae1-40a5-8418-5457e6e1b6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{000bf6aa-fd73-40c7-8984-4bce636fae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{4080c456-864e-4fcd-888b-a305a8ce3061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\game_objects">
+      <UniqueIdentifier>{406cc016-f196-4834-9126-4958399b23b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\rendering">
+      <UniqueIdentifier>{cbfe208e-7af0-49fa-88e6-6b0d04fbe105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\core">
+      <UniqueIdentifier>{784ad2fc-c14c-499a-b187-55eee4a43a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\core">
+      <UniqueIdentifier>{0ef8db46-2752-405d-9a07-2eabf03f73c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\game_objects">
+      <UniqueIdentifier>{71f12347-fe29-405d-9181-3a3db0ccae14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\rendering">
+      <UniqueIdentifier>{23f87fc3-c1ff-4e06-8749-b9c9c6916dda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\glad\src\glad.c">
+      <Filter>Source Files\external\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\stb_image\stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\application.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\camera.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\mesh.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\shader.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\texture.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\model.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\computer.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\tableTop.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\pointLight.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\peanutJar.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\tableLight.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\calculator.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\charger.cpp">
+      <Filter>Source Files\src\game_objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\game_objects\game_object.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\application.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\camera.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\mesh.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\shader.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\texture.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\types.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\model.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\shapes.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\computer.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\tableTop.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\pointLight.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\peanutJar.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\tableLight.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\calculator.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_objects\charger.h">
+      <Filter>Source Files\include\game_objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\basic_shader.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_shader.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\container.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\awesomeface.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\redbrickwall2.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\wood2.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\alumium2.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\apple1.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\plastic1.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\plastic2.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
